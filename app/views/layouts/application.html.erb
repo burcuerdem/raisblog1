@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Rails Application</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <!-- Include stylesheet tags for your CSS files -->
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  
+
+</head>
+
+<body>
+  
+  <%= yield %>
+
+  
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</body>
+
+
+<style>
+
+</style>
+
+
+</html>
+
